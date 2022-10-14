@@ -1,0 +1,69 @@
+[
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "fe2ae083-e746-498a-afcf-8b6f072ec74b",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {
+          "height": "60px",
+          "marginTop": "0px",
+          "marginLeft": "0px",
+          "marginBottom": "0px",
+          "marginRight": "0px",
+          "width": "200px",
+          "fontFamily": "IBM Plex Sans",
+          "textAlign": "center",
+          "fontWeight": "normal",
+          "fontSize": "200px",
+          "lineHeight": "5px",
+          "display": "block"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "refId": "521b28ad-4eb9-4405-8840-bdc4548f97cc",
+    "childId": "fe2ae083-e746-498a-afcf-8b6f072ec74b"
+  },
+  {
+    "id": "6de9f53d-c739-47f5-be2f-ccf39a4a357e",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {}
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "521b28ad-4eb9-4405-8840-bdc4548f97cc",
+    "childId": "6de9f53d-c739-47f5-be2f-ccf39a4a357e"
+  },
+  {
+    "id": "521b28ad-4eb9-4405-8840-bdc4548f97cc",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "Div",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "templateRoot",
+        "index": 0
+      },
+      "alias": "name_div"
+    }
+  }
+]
